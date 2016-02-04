@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="aJb-uL-o41" customClass="FriendCircleView" customModule="StackViewsDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="89" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="friend" translatesAutoresizingMaskIntoConstraints="NO" id="J4l-Hx-V6Z">
+                    <rect key="frame" x="19" y="-1" width="50" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="RU6-yz-O5i"/>
+                        <constraint firstAttribute="width" constant="50" id="mwx-Sl-BUx"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="J4l-Hx-V6Z" firstAttribute="centerY" secondItem="aJb-uL-o41" secondAttribute="centerY" id="46m-pg-cmz"/>
+                <constraint firstItem="J4l-Hx-V6Z" firstAttribute="centerX" secondItem="aJb-uL-o41" secondAttribute="centerX" id="TdI-tj-1gg"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="friendImageView" destination="J4l-Hx-V6Z" id="x8J-Bw-eaD"/>
+            </connections>
+            <point key="canvasLocation" x="642.5" y="261.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="friend" width="101" height="100"/>
+    </resources>
+</document>
