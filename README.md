@@ -1,2 +1,2 @@
 # meetups
-Código de los ejemplos de las meetups celebrados durante el año.
+Code of the examples presented in every meetup
