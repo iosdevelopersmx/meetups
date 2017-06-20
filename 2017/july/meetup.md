@@ -15,6 +15,6 @@
 
 - **talk**: API clients
 - **speaker**: Josue
-- **goal**: Analisis y definicion para crear un API client, NSURLSession, AlamoFire ¿cual usar? ¿Porque? ¿Estamos matando moscas a escopetazos?
+- **goal**: Análisis y definición para crear un API client, NSURLSession, AlamoFire ¿cual usar? ¿Porque? ¿Estamos matando moscas a escopetazos?
 - **twitter**: @josh004_
 ---
