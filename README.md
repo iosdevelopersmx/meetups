@@ -1,2 +1,2 @@
 # meetups
-Code of the examples presented in every meetup
+Example code presented in every meetup
