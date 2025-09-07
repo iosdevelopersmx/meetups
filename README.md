@@ -1,7 +1,7 @@
 # iOS Developers MX Meetups
 
 <div align="center">
-  <img src="2017/june/wwdc-2017-roundtable/assets/swift-logo.png" alt="Swift Logo" width="200"/>
+  <img src="https://res.cloudinary.com/dgh1qklpq/image/upload/v1694126211/v2.3_ios_developersmx_ija4de.png" alt="Swift Logo" width="200"/>
 </div>
 
 ## 📱 About
